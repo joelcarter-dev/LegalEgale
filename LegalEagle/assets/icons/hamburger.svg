@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="56px" viewBox="0 0 73 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3855E3E4-A3A6-4A36-9754-BCEC4F61EFF0</title>
+    <defs>
+        <filter x="-46.5%" y="-76.9%" width="193.0%" height="253.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="5.0---Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Mobile-1.0" transform="translate(-298.000000, -17.000000)" fill="#FFFFFF">
+            <g id="Group" filter="url(#filter-1)" transform="translate(313.000000, 32.000000)">
+                <rect id="Rectangle" x="0" y="0" width="43" height="2"></rect>
+                <rect id="Rectangle-Copy" x="0" y="12" width="43" height="2"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="24" width="43" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

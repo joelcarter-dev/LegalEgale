@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" id="logo"></a>
+        </div>
+          <div class="nav-right">
+            <ul id="nav-list">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Clientd</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <span href="#" class="hamburger" onclick="toggleNav()" style="background-image: url('../assets/icons/hamburger.svg')">
+              <i class="fas fa-bars"></i>
+            </span>
+        </div>
+    </nav>
+</header>
+      
+<div class="carousel">
+    <div class="slide"  style="background-image: url('../assets/bg/Group.png')">
+      <div class="slide-content" >
+        <h2 class="slide-title">The first name in <b>corporate law</b>.</h2>
+        <p class="slide-description">Meet our Team.</p>
+      </div>
+    </div>
+
+    <div class="slide" style="background-image: url('../assets/bg/Group2.png')">
+      <div class="slide-content" >
+        <h2 class="slide-title">Our people make <b>the difference</b>.</h2>
+        <p class="slide-description">Meet our Team.</p>
+      </div>
+    </div>
+  
+    <div class="buttons">
+        <button onclick="nextSlide()" class="prev-button" style="background-image: url('../assets/icons/right-arrow.svg')">
+         
+        </button>
+        <button onclick="nextSlide()" class="next-button" style="background-image: url('../assets/icons/right-arrow.svg')"></button>
+          
+        </button>
+      </div>
+  </div>
+  
+  <div class="about-container">
+    <h1 class="section-title">Meet Our Team</h1>
+    <p class="about">Legal Eagles is a leading law firm focused on achieving the best possible outcomes for our clients, with a history of supporting the industries that make New Zealand successful.</p>
+  </div>
+
+ <section class="team">
+    <div class="member-card">
+        <img src="../assets/pfp/6109171295e508a48cf9cdfb0d9b45fc.png" alt="" class="profile">
+        <h3 class="name">
+            Joseph Patel
+        </h3>
+        <h2 class="title">
+            Partner
+        </h2>
+    </div>
+    <div class="member-card">
+        <img src="../assets/pfp/Montreal-corporate-headshot-BFL-group-on-location-white-background-02.png" alt="" class="profile">
+        <h3 class="name">
+            Susan Macdonald 
+        </h3>
+        <h2 class="title">
+            Partner
+        </h2>
+    </div>
+    <div class="member-card">
+        <img src="../assets/pfp/LBourque-297-Edit.png" alt="" class="profile">
+        <h3 class="name">
+            Peter Fitsimmons
+        </h3>
+        <h2 class="title">
+            Managing Partner
+        </h2>
+    </div>
+    <div class="member-card">
+        <img src="../assets/pfp/headshot-portrait-leamington-spa.png" alt="" class="profile">
+        <h3 class="name">
+            Samantha Peters
+        </h3>
+        <h2 class="title">
+            Partner
+        </h2>
+    </div>
+ </section>
+
+ <h1 class="section-title" id="news-title">Latest News</h1>
+ <section class="news">
+
+    <div class="news-card">
+        <p class="tag">
+            Finance
+        </p>
+        <h1 class="news-title">
+            Concerns about tax policy development and the quality of tax legislation highlighted to Minister
+        </h1>
+        <span class="date">
+            21 Aug 2020
+        </span>
+        <span class="plus" style="background-image: url('../assets/icons/+.svg')"></span>
+    </div>
+
+    <div class="news-card">
+        <p class="tag">
+            Social
+        </p>
+        <h1 class="news-title">
+            Meth test provision in sale and purchase agreement recommended
+        </h1>
+        <span class="date">
+            21 Aug 2020
+        </span>
+        <span class="plus" style="background-image: url('../assets/icons/+.svg')"></span>
+    </div>
+    <div class="news-card">
+        <p class="tag">
+            Property
+        </p>
+        <h1 class="news-title">
+            10th edition of REINZ/ADLS Sale & Purchase Agreement changes finance condition
+        </h1>
+        <span class="date">
+            21 Aug 2020
+        </span>
+        <span class="plus" style="background-image: url('../assets/icons/+.svg')"></span>
+    </div>
+    <div class="news-card">
+        <p class="tag">
+            Social
+        </p>
+        <h1 class="news-title">
+            New approach to assist those seeking refugee status and protection
+        </h1>
+        <span class="date">
+            21 Aug 2020
+        </span>
+        <span class="plus" style="background-image: url('../assets/icons/+.svg')"></span>
+    </div>
+    <div class="news-card">
+        <p class="tag">
+            Safety
+        </p>
+        <h1 class="news-title">
+            More evidence needed to justify proposed Firearms Prohibition Orders regime
+        </h1>
+        <span class="date">
+            21 Aug 2020
+        </span>
+        <span class="plus" style="background-image: url('../assets/icons/+.svg')"></span>
+    </div>
+
+    
+
+ </section>
+
+<footer>
+    <div class="top-container">
+        <div id="footer-logo" style="background-image: url('../assets/icons/logo-grey.svg')">
+        </div>
+        <div class="details-container">
+            <span class="details">
+                <p>Legal Eagles Limited</p> 
+                <p>100 Quay Street </p> 
+                <p>Auckland 1010, New Zealand</p> 
+                <p> PH: 09  300 0019</p> 
+            </span>
+            
+            <span class="details">
+               <p><a>Terms & Conditions</a></p> 
+               <p><a>Privacy Policy</a></p> 
+               <p><a>Complaints Process</a></p>
+               </span>
+            
+            <span class="details">
+               <p><a>Vulnerable Client Policy</a></p> 
+                <p><a>Seek Professional Advice</a></p>
+            </span>
+            <a class="details">© Copyright Legal Eagles</a>
+        </div>
+    
+    </div>
+
+    <div class="botton-container">
+        <div class="social">
+            <span>Follow us</span>
+            <a href="">
+                <?xml version="1.0" encoding="UTF-8"?>
+    <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>11589122-80F9-4D15-990D-A6597BCEDBD4</title>
+    <g id="5.0---Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-UI-Breakdown-1.0" transform="translate(-913.000000, -2676.000000)">
+            <g id="Group-6" transform="translate(644.000000, 280.000000)">
+                <g id="Group-13" transform="translate(269.000000, 2396.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="15"></circle>
+                    <path d="M16,21 L16,15 L17.75,15 L18,13 L16,13 L16,11.8125 C16,11.5208333 16.0572917,11.3125 16.171875,11.1875 C16.2864583,11.0625 16.5416667,11 16.9375,11 L16.9375,11 L18,11 L18,9 L16.25,9 C15.2291667,9 14.5,9.22395833 14.0625,9.671875 C13.625,10.1197917 13.40625,10.78125 13.40625,11.65625 L13.40625,11.65625 L13.40625,13 L12,13 L12,15 L13.40625,15 L13.40625,21 L16,21 Z" id="" fill="#2F2D2D" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+            </a>
+            <a href="">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>DE7E3590-8FA9-47DD-BF16-6588365D89EA</title>
+                <g id="5.0---Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Home-Page-UI-Breakdown-1.0" transform="translate(-955.000000, -2676.000000)">
+                        <g id="Group-6" transform="translate(644.000000, 280.000000)">
+                            <g id="Group-7" transform="translate(311.000000, 2396.000000)">
+                                <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="15"></circle>
+                                <path d="M10.359375,10.765625 C10.765625,10.765625 11.1015625,10.6328125 11.3671875,10.3671875 C11.6328125,10.1015625 11.765625,9.78125 11.765625,9.40625 C11.765625,9 11.640625,8.6640625 11.390625,8.3984375 C11.140625,8.1328125 10.8125,8 10.40625,8 C10,8 9.6640625,8.1328125 9.3984375,8.3984375 C9.1328125,8.6640625 9,9 9,9.40625 C9,9.78125 9.125,10.1015625 9.375,10.3671875 C9.625,10.6328125 9.953125,10.765625 10.359375,10.765625 Z M15.703125,20 L15.703125,15.453125 C15.703125,15.140625 15.734375,14.921875 15.796875,14.796875 C16.046875,14.171875 16.484375,13.859375 17.109375,13.859375 C17.984375,13.859375 18.421875,14.4375 18.421875,15.59375 L18.421875,15.59375 L18.421875,20 L21,20 L21,15.3125 C21,14.15625 20.7265625,13.28125 20.1796875,12.6875 C19.6328125,12.09375 18.921875,11.796875 18.046875,11.796875 C17.109375,11.796875 16.328125,12.234375 15.703125,13.109375 L15.703125,13.109375 L15.703125,11.984375 L13.125,11.984375 L13.125,20 L15.703125,20 Z M11.578125,20 L11.578125,11.984375 L9,11.984375 L9,20 L11.578125,20 Z" id="" fill="#2F2D2D" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+            <a href="">
+                <?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="31px" viewBox="0 0 30 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E17CD751-4D77-4EAE-B771-BDAA5831FC8D</title>
+    <g id="5.0---Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-UI-Breakdown-1.0" transform="translate(-997.000000, -2676.000000)">
+            <g id="Group-6" transform="translate(644.000000, 280.000000)">
+                <g id="Group-8" transform="translate(353.000000, 2396.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="15"></circle>
+                    <text id="YouTube-Play---FontAwesome" font-family="FontAwesome" font-size="15" font-weight="normal" line-spacing="30" fill="#2F2D2D">
+                        <tspan x="7.5" y="14"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+            </a>
+        </div>
+        <div class="contact">
+            <b>Get in touch</b>
+            <p>Contact us</p>
+            <span class="plus">
+                <?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>572C13D9-78B5-4CFA-904C-23442A88C354</title>
+    <g id="5.0---Interface" stroke="white" stroke-width="1" fill="white" fill-rule="evenodd">
+        <g id="Home-Page-UI-Breakdown-1.0" transform="translate(-1855.000000, -2245.000000)" fill="#2F2D2D" fill-rule="nonzero">
+            <g id="Group-6" transform="translate(644.000000, 280.000000)">
+                <path d="M1242.48387,1980.48387 L1227.51613,1980.48387 L1227.51613,1965.51613 C1227.51613,1965.2311 1227.28503,1965 1227,1965 C1226.71497,1965 1226.48387,1965.2311 1226.48387,1965.51613 L1226.48387,1980.48387 L1211.51613,1980.48387 C1211.2311,1980.48387 1211,1980.71497 1211,1981 C1211,1981.28503 1211.2311,1981.51613 1211.51613,1981.51613 L1226.48387,1981.51613 L1226.48387,1996.48387 C1226.48387,1996.7689 1226.71497,1997 1227,1997 C1227.28503,1997 1227.51613,1996.7689 1227.51613,1996.48387 L1227.51613,1981.51613 L1242.48387,1981.51613 C1242.7689,1981.51613 1243,1981.28503 1243,1981 C1243,1980.71497 1242.7689,1980.48387 1242.48387,1980.48387 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+            </span>
+        </div>
+
+        <div class="footer-news">
+            <b>News</b>
+            <p href="">Subscribe for updates</p>
+
+            <span class="plus">
+                <?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>572C13D9-78B5-4CFA-904C-23442A88C354</title>
+    <g id="5.0---Interface" stroke="white" stroke-width="1" fill="white" fill-rule="evenodd">
+        <g id="Home-Page-UI-Breakdown-1.0" transform="translate(-1855.000000, -2245.000000)" fill="#2F2D2D" fill-rule="nonzero">
+            <g id="Group-6" transform="translate(644.000000, 280.000000)">
+                <path d="M1242.48387,1980.48387 L1227.51613,1980.48387 L1227.51613,1965.51613 C1227.51613,1965.2311 1227.28503,1965 1227,1965 C1226.71497,1965 1226.48387,1965.2311 1226.48387,1965.51613 L1226.48387,1980.48387 L1211.51613,1980.48387 C1211.2311,1980.48387 1211,1980.71497 1211,1981 C1211,1981.28503 1211.2311,1981.51613 1211.51613,1981.51613 L1226.48387,1981.51613 L1226.48387,1996.48387 C1226.48387,1996.7689 1226.71497,1997 1227,1997 C1227.28503,1997 1227.51613,1996.7689 1227.51613,1996.48387 L1227.51613,1981.51613 L1242.48387,1981.51613 C1242.7689,1981.51613 1243,1981.28503 1243,1981 C1243,1980.71497 1242.7689,1980.48387 1242.48387,1980.48387 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="main.js"></script>  
+</html>
